@@ -1,7 +1,7 @@
-const os = require('os');
+const os = require("os"); //os 모듈을 임포트
 
-console.log(os.EOL === '\n');
-console.log(os.EOL === '\r\n');
+console.log(os.EOL === "\n");
+console.log(os.EOL === "\r\n");
 
 console.log(os.totalmem());
 console.log(os.freemem());
